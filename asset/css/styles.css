@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 5rem 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.around-margin {
+  padding: 2.5rem;
+}
+
+.card1 {
+  background-color: hsl(31, 77%, 52%);
+  width: 300px;
+  height: 500px;
+  border-radius: 10px 10px 0 0;
+}
+
+.card2 {
+  background-color: hsl(184, 100%, 22%);
+  width: 300px;
+  height: 500px;
+}
+
+.card3 {
+  background-color: hsl(179, 100%, 13%);
+  width: 300px;
+  height: 500px;
+  border-radius: 0 0 10px 10px;
+}
+
+h1 {
+  color: hsl(0, 0%, 95%);
+  margin: 2rem 0;
+  text-transform: uppercase;
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+
+}
+
+button {
+  background-color: hsl(0, 0%, 95%);
+  padding: 10px 30px;
+  border: none;
+  border-radius: 15px;
+  margin-top: 5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.15;
+}
+
+button:hover {
+  background-color: hsl(0, 0%, 0%, 0.10);
+  border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+  color: none;
+}
+
+.btn_1 {
+  color: hsl(31, 77%, 52%);
+}
+
+.btn_2 {
+  color: hsl(184, 100%, 22%);
+}
+
+.btn_3 {
+  color: hsl(179, 100%, 13%);
+}
+
+@media screen and (min-width: 765px) {
+  body {
+    padding: 10rem 2rem;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .around-margin {
+    padding: 2.5rem;
+  }
+
+  .card1 {
+    background-color: hsl(31, 77%, 52%);
+    width: 300px;
+    height: 500px;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .card2 {
+    background-color: hsl(184, 100%, 22%);
+    width: 300px;
+    height: 500px;
+  }
+
+  .card3 {
+    background-color: hsl(179, 100%, 13%);
+    width: 300px;
+    height: 500px;
+    border-radius: 0 10px 10px 0;
+  }
+}
